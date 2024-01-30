@@ -1,7 +1,6 @@
 import Stripe from 'stripe';
 import express from 'express';
 import env from 'dotenv';
-import {AddressInfo} from 'net';
 
 env.config();
 
