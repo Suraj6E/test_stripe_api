@@ -1,7 +1,21 @@
 {
+  "name": "test_stripe_api",
+  "version": "1.0.0",
+  "description": "Stripe API wrapper using nodejs",
+  "keywords": [
+    "stripe",
+    "payment processing",
+    "credit cards",
+    "api"
+  ],
+  "author": "Suraj Neupane <suraj.neupane151@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.1",
     "express": "^4.18.2",
     "stripe": "^14.14.0"
+  },
+  "scripts": {
+    "run": ""
   }
 }
