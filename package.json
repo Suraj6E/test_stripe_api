@@ -1,21 +1,34 @@
 {
   "name": "test_stripe_api",
   "version": "1.0.0",
-  "description": "Stripe API wrapper using nodejs",
+  "description": "Stripe API, create user, suscription and one time payment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "source .env; nodemon ..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Suraj6E/test_stripe_api.git"
+  },
   "keywords": [
+    "nodejs",
+    "expressjs",
+    "mvc",
     "stripe",
-    "payment processing",
-    "credit cards",
-    "api"
+    "crud"
   ],
   "author": "Suraj Neupane <suraj.neupane151@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.4.1",
-    "express": "^4.18.2",
-    "stripe": "^14.14.0"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suraj6E/test_stripe_api.git/issues"
   },
-  "scripts": {
-    "run": ""
+  "homepage": "https://github.com/Suraj6E/test_stripe_api.git#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "stripe": "^14.14.0"
   }
 }
